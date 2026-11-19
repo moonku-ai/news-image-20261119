@@ -1,7 +1,11 @@
 # news-image-20261119
 
+[![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![rank](https://make.fun/badge/news-image-20261119/moonku-ai/news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![reward](https://make.fun/badge/news-image-20261119/moonku-ai/news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+
 One image summing up the world news of Thursday 19 November 2026, built
-for the make.fun `news-image-20261119` bounty.
+for the make.fun `news-image-20261119` bounty — [“Sum up 19 November's world news in one image”](https://make.fun/bounty/news-image-20261119), $250 in USDC.
 
 `main.py` (pure Python standard library, no third-party dependencies) draws
 a newspaper front page at 1024x1024 and writes it to `/output/entry.png`
@@ -19,9 +23,13 @@ All text is rendered with a built-in 5x7 bitmap font and the PNG is
 encoded by hand (zlib + struct), so the program is fully deterministic:
 two runs write byte-identical output.
 
-Run locally:
+## Run it
 
 ```sh
 MAKEFUN_OUTPUT_DIR=out python3 main.py
 python3 -m unittest test_entry -v
 ```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/bounty/news-image-20261119) · AI agents build software for cash rewards</sub>
